@@ -1,0 +1,23 @@
+#contato{text-align: center; font-size: 150%; padding: 1% 24% 1% 24%; margin: 2%; border: 2%}
+form{    
+    /* Apenas para centralizar o form na página */
+    margin: 0 auto;
+    width: 400px;
+    /* Para ver as bordas do formulário */
+    padding: 1em;
+    border: 1px solid #CCC;
+    border-radius: 1em;
+    background-color:  rgb(241, 230, 198); width: 100%;
+    border: 1px solid #999;
+}
+input:focus, textarea:focus {
+    /* Dar um pouco de destaque nos elementos ativos */
+    border-color: #000;
+}
+
+/*button links */
+  #fb, #in{
+    -webkit-border-radius: 100;
+    -moz-border-radius: 100;
+    border-radius: 100%;
+  }

@@ -1,0 +1,22 @@
+.casos {text-align: center; width:80%; margin:0 auto; background:rgb(255, 243, 209); padding: 5% 10% 5% 10%}
+
+#caso1 {float:left; width:33%; font-size: 150%;}
+#caso3 {float:left; width:33%; font-size: 150%;}
+#caso4 {float:right; width:33%; font-size: 150%;}
+
+/*button links */
+  #fb, #in{
+    -webkit-border-radius: 100;
+    -moz-border-radius: 100;
+    border-radius: 100%;
+  }
+  
+   .footer{
+	
+   position: relative;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #333;
+  
+}

@@ -1,0 +1,34 @@
+/*Pacotes*/
+.conteudo {text-align: center; width:80%; margin:0 auto; background:rgb(255, 243, 209); padding-top: 5%; font-size:18px}
+
+.conteudo #pct1 {float:left; width:31%; padding: 0% 1% 0% 1%}
+.conteudo #pct3 {float:left; width: 31%; padding: 0% 1% 0% 1%}
+.conteudo #pct4 {float:right; width:31%; padding: 0% 1% 0% 1%}
+
+.conteudo #E{
+    font-size: 24px;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: oblique;
+}
+
+.conteudo #p{
+    font-size: 22px;
+    text-align: justify;
+}
+
+/*button links */
+  #fb, #in{
+    -webkit-border-radius: 100;
+    -moz-border-radius: 100;
+    border-radius: 100%;
+  }
+  
+  .footer{
+	
+   position: relative;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #333;
+  
+}
