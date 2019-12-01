@@ -1,5 +1,5 @@
 <?php
-include ('../php_default/conexao_bd.php');
+include ('../../php_default/conexao_bd.php');
 
 $id = $_GET['id'];
 
