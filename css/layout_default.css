@@ -1,0 +1,65 @@
+body{
+    font-family:  'Courier New', Courier, monospace;
+  background-color:rgb(255, 243, 209);
+}
+
+.mycontainer{
+    background-color:rgb(255, 251, 0);
+    width: 960px;
+	
+}
+
+article {
+    padding: 5% 5%;
+}
+
+.cabecalho{
+    display: block;
+    margin-bottom: 3%;
+}
+
+#logoPrincipal{
+    width: 25%;
+    display: block;
+    margin: auto;
+    margin-top: 0.5%;
+    margin-bottom: 1.5%;
+}
+
+.center{
+    text-align: center;
+}
+
+.mythumbnail h2{
+    color: #0003cf;
+}
+
+a:hover .mythumbnail h2{
+    color: #c702ee;
+}
+
+#info{
+    margin-bottom: 4.5%;
+}
+
+input[type="radio"], input[type="checkbox"] {
+    margin: 1;
+}
+
+.bloquete {
+
+    padding: 30%, 30%, 30%, 30%;
+    background-image: -webkit-linear-gradient(top, #d9c334, #842bb8);
+    background-image: -moz-linear-gradient(top, #d9c334, #842bb8);
+    background-image: -ms-linear-gradient(top, #d9c334, #842bb8);
+    background-image: -o-linear-gradient(top, #d9c334, #842bb8);
+    background-image: linear-gradient(to bottom, #d9c334, #842bb8);
+    -webkit-border-radius: 34;
+    -moz-border-radius: 34;
+    border-radius: 34px;
+    -webkit-box-shadow: 1px 1px 13px #ff00ff;
+    -moz-box-shadow: 1px 1px 13px #ff00ff;
+    box-shadow: 1px 1px 13px #ff00ff;
+    font-family: Georgia;
+    font-size: 17px;
+  }
