@@ -161,7 +161,7 @@
                                                 <td>" . getA4($i) . "</td>
                                                 <td>" . getA5($i) . "</td>
                                                 <td class='tdStatus'>" . (getStatus_disponivel_quest($i) == 1 ? "Disponível" : "Não Disponível") . "<a href='editar_quest.php?id=" . getId($i) . "' class='pull-right btn btn-small' title='Editar'><i class='icon-pencil'></i></a></td>
-                                                 <td class='pull-right btn btn-small'>" . "<a href='../../php_paginas/apagar_quest.php?id=" . getId($i) . "' class='pull-right btn btn-small' title='Apagar'><i class='icon-remove'></i></a> </td>
+                                                <td class='pull-right btn btn-small'>" . "<a href='../../php_paginas/admin/apagar_quest.php?id=" . getId($i) . "' class='pull-right btn btn-small' title='Apagar'><i class='icon-remove'></i></a> </td>
                                             </tr>";
                                         }
                                     }
